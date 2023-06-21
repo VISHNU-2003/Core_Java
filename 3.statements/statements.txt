@@ -1,0 +1,68 @@
+Statements:- 
+        statements in java is used for the conditions where we can set the condition 
+        for the statemnts or we can easily verify the conditions 
+
+        The statements is of two types 
+            1.Conditional Statements
+                1.1 ternary conditional operator 
+            2.Switch Statements 
+
+1.Conditional Statements:-
+            conditional statements means that insted of boolean we can give "if condition" for the the 
+            statement that if this statemnt correct the output should be yes else no 
+            means in boolean we used to had only true or false but here we can give our own outputs for the 
+            given conditions for the statements 
+
+                These are Some types 
+                    1.if else condition 
+                    2. if elseif else condition 
+
+        1.if else condition 
+              if is used for the statemnt where the first case of the condition like
+              if the sun raises in the east then the output should be "yes its an universal truth"
+              else it should be written as the falses
+              suppose there are two statemsnts that 
+              x=10
+              y=9
+              if (x>y )
+              we want to print its fine 
+              and if its not means
+              else
+              it will print its not fine 
+        2 if else if
+            The "if else if" condition is used when there is more than two statements then we need to satisfy those
+            statements and then we need to   give their respective outputs for that.
+            suppose there is a statements that 
+            x=8
+            y=9
+            z=7
+            if(x>y && y>z)
+            system.out.println(x)
+            else if(x<z) 
+            system.out.println(y)
+            else
+            system.out.println(z)
+            so accordings it will gives us the result 
+    1.1 ternary  conditional operators
+            these are as same as if else but it will be simply written suppose we are using 4to5 lines to code via if else 
+            instad of these for time saving they introduced ternary conditional operators which we use the ?: for the statement     
+                suppose 
+                    int x = 8;
+                    int y = 9;
+                    int result = x>y ?hi :hello;
+                    if the condition is true then it will print hi(?)
+                    if the condition is false then it will print hello (:)
+
+2.Switching statemnts
+            so we knew that if else and if elseif else is used for getting the outputs according to the given statemnts and the outputs we assign to them like what should be printed if the 1st statement is right otherwise it prints the else part written in system.out.println
+
+       Switching statements is the process where it simplifys and the statement according to the condition given by the user to the compiler. to run the switch statemnts, we should know about three things under switching the satements those are 
+            1.Switch
+            2.case
+            3.break
+            4.default      
+            to begin the syntax we use switch under the switch we used to cases for the first case we give some  condtion to print for the statemnts if we not use the break statemt at the end of the case then it will print the remaining cases and we use default at the end of the all cases if the condition given by the user is not satisfid by the statements then also it prints some thing like entere a valid or any thing we want.
+              
+     is the process that were instad of using if elseif and for the particular condition should 
+       satisfy the statemet and the input we assign to them is only 
+

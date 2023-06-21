@@ -1,0 +1,58 @@
+ide integrated development environment 
+
+jdk java development kit 
+
+jvm to run java application the jvm is must otherwise we can't run java
+java is platform independent
+
+jvm(java virtual machine)
+but jvm is the platform is dependent 
+jvm wants to built for particular os
+
+jvm understands only bytecode(unreadable format for a humanbeing)
+
+JRE java runtime environment 
+inside jre we have jvm 
+
+{jdk mostly used by developers}
+
+wora:-write once and run anywere 
+
+structure
+instructure>>javacode>>>compiler(javac)>>>bytecode>>>jvm>>>JRE>>os(win,mac,anyother...)>>Hardware
+
+assing the class with the name of file with .java 
+
+first file lead to have main method also for the specific method signature
+signature=Public static void main(String a[])  main(accept some parameters)
+
+after we compile we get a newfile with hello.class that is a bytecode 
+the extenstion for the bytecode is .class 
+
+In Java the text(names) are known to be strings
+numbers are stored with the help of int(integers)
+println(prints in new line)
+In java the semicolon is must for every line 
+except we doesn't put semicolon at the end of the block 
+
+In java we put the data-type(int,...) then vairable name(num, result ....) and then we assign the value 
+example int num = 3;
+the equal-to here is known as assignment operater.
+
+addition of numbers 
+public class addition{
+public static void main(String arr[])
+{
+int num1 = 88;
+int num2 = 12;
+int result = num1+num2;
+System.out.println(result);
+}
+}
+then:-
+compile 
+run
+
+double quotes " " is used for mentioning the strings;
+Single quotes ' ' is used for mentioning the characters;
+s

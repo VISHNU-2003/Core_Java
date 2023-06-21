@@ -1,0 +1,83 @@
+Data type: the types we assign in front of the variables is known as data types.
+there are two types of datatypes 
+1. Primitive Data Types
+2. Reference Data Types
+
+PRIMITIVE DATATYPE:-
+
+coming to Primitive data type again it was dividied into 4 types 
+                1.Integers
+                2.Floating
+                3.character
+                4.boolean
+
+1. Integers---> which carries the positive and negative numbers along with 0
+                 these are again carring the multiple types likee..
+                 long, short, int, byte 
+                 
+what is a byte?
+    byte is a group of binary digits or bits(ussually eight)
+    operated on as a unit 
+    a byte is considered as a unit of memory size. 
+    a byte is 8 bits wide.
+    byte = 1 byte the value of each byte is calculated as 
+    the num value bw -128 to 127 we can use the BYTE as a DATA-TYPE
+    -2^7 to 2^7-1 i.e., -128 to 127(max value)(which is inclusive)
+    
+{2's complement is the way where the original binary value is reversed an adding with +1 is known as 2's complement
+example:-
+if we take 00000101
+for the above the value in 2's complement is 
+00000101 reversing the value
+11111010 now adding +1 to this 
+11111011 is the 2's complement for the above.}
+
+INT:-
+int consists of 4bytes = 4(8bits) = 32bits
+INT is a signed integer {Signed integers are stored in a computer using 2's complement}
+INT is 32 bits wide
+
+LONG:-
+long is a 64-bit signed integer which consists  of 8bytes = 4(8bits) = 64bits
+LONG is a signed integer
+LONG is 64 bits wide
+for long the syntax is written as long l = 58584l(here the letter L is must for the end of the long datatype)
+
+SHORT:-
+short is a 16-bit signed integer which consists  of 2bytes = 2(8bits) = 16bits
+SHORT is a signed integer
+It has a minimum value of -32,768 and a maximum value of 32,767 (inclusive). {-2^64 to 2^64-1 }
+
+2. Floating Point Numbers (float)---> which carries the decimal numbers(0.5, 3.5....)
+                                        theses are written as 
+                                        double and float.
+
+    In flotat type again its of two types 1)float
+                                          2)double
+    by default if there is an use of decimal number value we will use double in java because in java double is mostly used due to float consists of only range of -128 to +127 so if we want to find any values nearly 126.587924687.. or more than that then float can't be used and float is of 4bytes 
+    float is written as float f = 5.8f. here f is mandatory to excute the perfect syntax.
+
+    while coming to double it contains the larger values and its a by default type taken in java so we that double is used for decimal values and double is of 8bytes
+     
+3. characters---> which carries the alphabates and also a regionl values 
+                        these are written as char
+            char is a signed integer
+         char is 16 bits wide means it is 2bytes {2(8 bits)}
+         java is known as unicode (Ascii values)
+ex: char c = 'x';
+char are only used single quote and it will accept only a single character.
+simply char is a datatype which is used to store single character 
+a character can be also a number from {0-9}
+
+4. boolean---> in other languages except java boolean is written a (0,1)
+                in Java boolean means only true or false 
+                it is used to satisfy the conditions and it doesn't carries any quotes like "" '' because its a keyword of itself and written as follows :-
+                                                boolean b = true;
+                                                boolean b = false;
+                                                boolean is written a boolean  in java.
+
+{4. logical operators---> which carries the logical operators and also a regionl values}
+
+the above mentiond are known as Primitive datatypes..
+
+

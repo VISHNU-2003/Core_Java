@@ -1,0 +1,25 @@
+Type conversion is a process where w can change the value with satisfying satements 
+```byte to int is a conversion 
+    int to float is a conversion
+     ex: byte a = 10;//converting byte to integer 
+         int b = a; //this is known as conversion which is converting the byte to int 
+        System.out.println(b); 
+
+Type casting is also a type of conversion here the satement should be given because those are unsatisfactroy statements
+```int to byte 
+   float to int 
+    ex:  int a = 25;//casting int to byte b{because the value of every integer can't be a byte and the visevera is possible.}
+        byte b = (byte) a;//byte range = -128 to +127 and the 257value is calcuated as it will divide the 257 with total range of the bytes that is 256 now 257/256 is '1' so it prints the value '1'
+        System.out.println(b);
+
+Type promotin is a type of conversion where it promotes the statement suppose we take that 
+byte a = 10;
+byte b = 30;
+(a*b)
+now if we want to perform any operator with which is value more than a range of byte then it will 
+promote with the help of int 
+now simply we can write int result = (a*b); and then print 
+ int a = 10;
+        float b = 10.5f;
+        float result  = (a+b);//here it promotes the int to float which is decimal value 
+        System.out.println(result);

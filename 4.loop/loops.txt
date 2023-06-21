@@ -1,0 +1,82 @@
+Loops:-
+    Loops means if the work we want to do is that repeatedly then we itroduse the topic as looops 
+   
+         for the best example :-
+                 if the teachers gives a homework to write for the same question for 100times then we used to wrtie
+                 this  for 100times but in the concept of loops we can easily write this in few steps and we can give the conditons.
+    
+    There is a term known as Nested where the loop in loop where if the 1st loop is ended and it converse to the inside loop and then it will be come back and then keep and process ends that is known as "NESTED LOOP" 
+    
+                There are three types of loops in 
+                         1.while loop
+                         2.do..while loop 
+                         3.for loop 
+    
+    1.while loop:-
+        while loop condition is mostly used for the file reading and for databases used for while loop and aslo the syntax 
+        of the while loop is 
+                while(conditon){
+                        system.out.println("..." + i)
+                } 
+                Nested while
+                          int i = 1;
+                                while(i<6)
+                                {
+                                System.out.println("I is " +  i);
+                                i++;
+                                int j = 1;
+                                while(j<=3)//nested
+                                {
+                                        System.out.println("hello" + j);
+                                        j++;
+                                }
+                                }
+                                i++;
+
+        2.do while LOOP:-
+                do while loop is where there will be the output even the conditon doesn't satisfys though it will 
+                print some thing 
+                 syntax for do while looop is that 
+                         do {
+                                Systeom.out.println("a = " + a);
+                                a++;
+                                int j =1;
+                                }while(a<=3);
+                        NESTED LOOP:
+                                  do {
+                                        System.out.println("a = " + a);
+                                        a++;
+                                        int j =1;
+                                        do{//nestedd
+                                                System.out.println("j = " + j);
+                                                j++;
+                                        }while(j<=2);
+                                        }while(a<=3);
+                                }
+        3.FOR LOOP: -
+              in the case of for loop the syntax is too less and we can easily write the all conditions into the 
+              same statement is known for the for loop conditon. 
+              the syntax for the for loop is that : -
+                blic static void main(String[] args){
+                                for(int i=0;i<=5;i++)
+                                {
+                                System.out.println("hello " + i);
+                                      
+                                }
+                        }
+                NESTED FOR LOOP: -
+                                
+                                for(int i=0;i<=5;i++)
+                                {
+                                System.out.println("hello " + i);
+                                        for(int j=1;j<=3;j++){//nested
+                                        System.out.println("how are you " + j);
+                                }
+                                }
+                        
+
+This about the information regarding loops. 
+
+
+
+                         

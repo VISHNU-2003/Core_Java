@@ -1,0 +1,120 @@
+Operators are of three types 
+1. Arthematic Operators
+2. Relational Operators
+3. Logical Operators 
+
+Arthematic Operators 
+these are of two types 
+1.Binary operators 
+2.Unary Operators 
+
+1.Binary operators:-
+these are the mathematical operators where we use generally + - / * %
++ addition
+- subtraction 
+* multiplication 
+/ this is for division but the result will be quitoent 
+% (modules) this is also for division but the result will be remainder 
+**These operators are applied to two operands.*
+{operands and operators suppose '8+6' here 8and6 are operands and the operator is +}
+
+2.Unary Operators:-
+These operators are applied to a single operand.
+these are the kind of operators where it gives the (+1 or -1) which means increments the value or decerements the value
+two types
+
+1)increment
+        These are agin of two types Post Increment and Pre Increment  which is 
+        written as i++ and ++i.
+            Post Increment:- means the value is increased to the next operator and it saves the values (i++)
+            Pre  Increment:  means the value is increased first and then it writes the increased value (stored intself)  (++i)
+
+2)decrement 
+        These are again of two types as usually like increment post and pre decrement which is 
+        written as i-- and --i.
+            Post Decrement:- means the value is decreased to the next operator and it saves the value (i--)
+            pre  Decrement:- means the value is decreased first and then it writes the decreased value (--i)
+
+2.Relational Operators: -
+These are the operators which are used to compare the values.
+like <, >, =, ==, !=, <=, >=
+< -- lessthan
+> -- greaterthan
+= -- equals to (assiging the values to a variables)
+== -- strict equals to(it is a equality operators which is used to check two values are equal (mostly used for boolean))
+<= -- less than or equalsto 
+>= -- greater than or equalsto 
+
+The operators +=, -=, *=, and /= are compound assignment operators in Java. They combine an arithmetic operation with an assignment operation into a single statement, making the code more concise.
+
++= operator:
+
+Syntax: variable += expression;
+Usage: Adds the value of the expression to the current value of the variable and assigns the result back to the variable.
+Example: x += 5; is equivalent to x = x + 5;. It adds 5 to the value of x and stores the result back into x.
+-= operator:
+
+Syntax: variable -= expression;
+Usage: Subtracts the value of the expression from the current value of the variable and assigns the result back to the variable.
+Example: x -= 3; is equivalent to x = x - 3;. It subtracts 3 from the value of x and stores the result back into x.
+*= operator:
+
+Syntax: variable *= expression;
+Usage: Multiplies the current value of the variable by the value of the expression and assigns the result back to the variable.
+Example: x *= 2; is equivalent to x = x * 2;. It multiplies the value of x by 2 and stores the result back into x.
+/= operator:
+
+Syntax: variable /= expression;
+Usage: Divides the current value of the variable by the value of the expression and assigns the result back to the variable.
+Example: x /= 4; is equivalent to x = x / 4;. It divides the value of x by 4 and stores the result back into x.
+These compound assignment operators can be used with variables of numeric types such as int, long, float, double, etc. They provide a concise way to perform an arithmetic operation and assignment in a single step.
+
+{=== -- (hahah..  triple equals doesn't exist in java but it is also a relational operator )}
+ Difference between “ == “ and “ === “ operators.
+Both are comparison operators. The difference between both the operators is that “==” is used to compare values whereas, “ === “ is used to compare both values and types.
+
+This is upto the relational operators.
+
+3.Logical Operators (booleans )
+    To excute multiple comands at a time we use logical operators 
+        These are of three types(also known as short circuit method or shortcut method) 
+            1.AND (&&) 
+            2.OR  (||)
+            3.NOT (!)
+
+    1.AND operator: -
+        and operator is one of the logical operator where it contains two amprsend symbols && 
+        it is mostly used for satisfactory output of the combinational conditions 
+            **The main point to know is that if any of the condition form two statemnts is false then the output will be 
+            false. the both conditions should satisfy for true then only the output will be true other wise false 
+    Truth table      if : - condition-1      condition-1     result 
+                                T               T               T 
+                                T               F               F 
+                                F               T               F 
+                                F               F               F 
+    2.OR opeartor: - 
+        OR operator is also a one of the logical operator where it contains two pipe symbols (||) to present 
+        it is also mostly used for satisfactory output fo the combinational conditions.
+        **The main point to know about the OR opeartor is if any of the following condition is true then the 
+        output of the conditions is true otherwise its a false will be seen in output 
+           Truth table if: - condition-1       condition-2       result
+                                T               T               T 
+                                T               F               T 
+                                F               T               T 
+                                F               F               F 
+    3.NOT operator: -
+            the not operator is mostly used in quick conditions where if we want to show the true output as false then we 
+            use not operator it is denoted with single exclematery mark (!);
+            if s=true;
+                r = s;
+                then we can say that r=true=s;
+                but if we use !r then 
+                !r=s  ;
+                then the output will be false;
+
+The common point of the and(&&) and or(||) operators are that it will 
+for and if the first condition is false then the output will directly written as false and if the first condition is true then it will check for the second condtion and then it gives us the result. 
+
+for the OR the first condition is true then the output will directly writes as true and if the first condition is fasle it will chck for the secondition and then it gives us the result. 
+                
+basically the Logical Operators are known as the operators where it will excute the multiple commands at a time 

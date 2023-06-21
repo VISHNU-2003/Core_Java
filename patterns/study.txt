@@ -1,0 +1,29 @@
+Design patterns are the reusable solutions that solve common problems of software development. These problems include repetitive code, redundant functions and logic etc. These help to save considerable effort and time required for the developers while developing software. Design patterns are commonly used in object-oriented software products by incorporating best practices and promoting reusability for developing robust code.
+
+ What are the advantages of Java Design Patterns?
+Design patterns are template-based reusable solutions to help developers work effortlessly in multiple projects. In Java, the design patterns are flexible and help to identify unwanted repetitive code easily. The architecture of the software can be customised as per the requirements. Some of the advantages of using design patterns in Java are:
+
+They are reusable and can be used in multiple projects.
+They provide template solutions for defining system architecture.
+They provide transparency to software design.
+They are well-tested and proven means of developing robust solutions effortlessly.
+
+3. How can you describe a design pattern?
+For describing a design pattern, we follow the below things:
+
+Define a pattern name and what classification of design pattern the pattern would fall to.
+Define a Problem and what is the corresponding solution
+What are the variations and language-dependent alternatives for the problem that needs to be addressed?
+What are the real-time use cases and the efficiency of the software that uses these patterns?
+
+
+4. What are the types of design patterns in Java?
+There are three types of design patterns. They are:
+
+Creational Patterns: These patterns provide freedom of choice between creating objects by hiding the logic. The objects constructed are decoupled from the implemented system. Some of the examples of creational patterns are - Factory design pattern, Builder design, Prototype design, Singleton design, Abstract Factory design.
+Structural Patterns: These patterns help in defining how the structures of classes and objects should be like for defining the composition between classes, interfaces and objects. Some of the examples of structural patterns are - Adaptor design, Facade design, Decorator design, proxy design etc.
+Behavioural Patterns: These patterns help to define how the objects should communicate and interact with one another. Some of the examples of behavioural patterns are - Command pattern, Iterator pattern, Observer pattern, Strategy pattern, etc.
+The following diagram represents the summary of the types of design patterns.
+
+
+
