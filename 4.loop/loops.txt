@@ -78,5 +78,12 @@ Loops:-
 This about the information regarding loops. 
 
 
+**********************************************************************************************
+
+The reason why a 'for' loop is not suitable for finding the greater number between two numbers is that a 'for' loop is typically used for iterating over a range of values or elements in a collection. it is not designed for comparing two numbers directly and determining which one is greater or lesser.
+
+In the case of finding the greater number between two numbers, a simple 'if' statement provides a straightforward and efficient way to compare the values and return the greater number. The 'if' statement evaluates a condition ('a> b') and excutes the appropriate block of code based on the result of the condition. 
+
+Using a 'for'loop or loops, for any task would introduce unnecessary complexity and would not provide any benefit over the straightforward 'if' statement approach. 
 
                          
