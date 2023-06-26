@@ -1,0 +1,110 @@
+Function: 
+    a function is a block of code that performs a specific task. 
+        1. it helps to reduce the writing of big codes which means reduce the code redundancy and also we can say that if some functionality is performed at multiple places in software, then rateher than writing the same code, again and again, we create a function and call it everywhere. 
+
+        2. It makes our program more readable as well as maintainable because now you don't have 
+        to search for where your particular piece of logic has been written but rather just look into one place only
+        i.e.,
+        inside the functions
+
+        3.in java orelse in any of the programming languages functions does the same thing and with the help of the functions we can make our projects easy and in detail functions is a kind of shortcut for using length codes 
+        if we store the logic in any of the function again we can use "call function" and use it where ever we want 
+
+        4.Functions makes our code more readable and easy to understand. 
+
+        5.Syntax of the function decleration is: 
+            return-type function_name(parameter 1, parameter2,.......parameter n){
+                //function_body
+            }
+            return-type
+            
+            : The type on which we want to perform an operation like int or float etc..
+
+            Function name
+
+            mostly in java while declaring the function we use camel case which is written like this:--- myFirstFunction, isPrime, isOdd, isEven....
+            Parameter list
+
+                {
+                    body of the function 
+                }
+
+
+
+            6.The syntax for calling is that 
+            we have have to mention the type of the function which we declared at the top of the main class 
+            suppose if we declare isPrime(int n) in function class 
+            inside the main class we call them as 
+            isPrime(n); 
+
+
+             7.We can also pass multiple parameters into one function.
+
+             About function_name
+                It is the unique name of the function.
+                It is always recommended to declare a function before it is used.
+
+            About parameters
+                A function can take some parameters as inputs These parameters are specified along with their data types. 
+                For eg - if we are writing a function to add 2 integers, the parameters would be passed like-
+                int add(int num1, int num2)
+            
+            About Main Function 
+                The function is a special function as the computer starts running the code frm the beginning of the main function. Main function serves as the entry point for the program. 
+
+                for eg-
+                    package com.apnacollege;
+
+                                public class Main {
+                                //A METHOD to calculate sum of 2 numbers - a & b
+                                public static void sum(int a, int b) {
+                                    int sum = a + b;
+                                    System.out.println(sum);
+                                }
+                                
+                                public static void main(String[] args) {
+                                    int a = 10;
+                                    int b = 20;
+                                    sum(a, b); // Function Call
+
+                                }
+                                }
+
+the main point to remeber is functions are directly called into the main method but METHODS are called using class and objects into the main method.
+
+*****The main point to remeber is that 
+when you run your program and press enter after typing java Main then all the code will execute from line 
+no:3 till last line number (in this case its Line No :8).
+****************************************************************************************
+                 *  4.Java Classes And Objects 
+                 *******************************************************************************
+
+                 A Class
+                 is nothing but blueprint or template where object gets created using these blueprints/templates.
+                 An Object
+                 ************************************************************************************
+
+
+                     What Is Java?
+
+                     The word "java" was coined
+                     by James Gosling in early 90's when he started working on his first programming language
+                     called Oak. 
+                     He wanted something short but meaningful so as not to confuse people with other
+                     languages such as C++ or Pascal etc...
+                     
+                     Why use JAVA ?
+
+                     1.It
+                     has been designed keeping simplicity at heart 
+                     2.Its easy to learn and understand 
+                     3.Platform
+                     independent i.e it can be used anywhere without any changes
+                     4.Object Oriented Programming Language
+                     How To Write Your First Program In Java
+
+                        Step #1:- Open Notepad Or
+                        Any Text Editor
+                        Step#2 :- Type This Code Into It
+                            /*
+                             Hello World!

@@ -3,8 +3,9 @@ public class factorial {
     public static void printFactorial(int n){
         if (n<0){
             System.out.println("Invalid Entry");
+            return;
         }
-        int factorial = 1;
+        long factorial = 1;//we use long here because the it has the more value than the int datatype limit
         for(int i=n;i>=1;i--){
             factorial = factorial*i;
         }
