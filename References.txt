@@ -1,0 +1,31 @@
+You can find all these in apana college java lectures play list
+
+Lecture 1: -
+https://docs.google.com/document/d/1d4cDG1bAVjvvKLjD9ZPQdJEGsQyGn_UIqCuluVmx5_0/edit
+
+Lecture 2: - Variables & Data Types
+https://docs.google.com/document/d/1upllrlSyv1pe86hBbNPUFT1nrmWsr6QPM4joL6Br1gU/edit
+
+Lecture 3: - Conditional Statements
+https://docs.google.com/document/d/1CdBYvB8e5Uen_4r2MFurPVE1tIEZMfrkqi34a674t5k/edit
+
+Lecture 4: - Loops
+https://docs.google.com/document/d/1Jqa2J4-udSiASDrqwH0PeW5L4LT9oDSwAFjkkm0X72E/edit
+
+Lecture 5: - Patterns
+https://docs.google.com/document/d/1OrUsnDqzma9ob467aCdvRlZwkK7mhl552n92vlBXr_U/edit
+
+Lecture 6: - Advanced Patterns 
+https://docs.google.com/document/d/1uh_l3ifDCfy9ljDgzK1wjaP2Vpz3sEAA4ADHAtbKfJ0/edit
+
+Lecture 7: - Functions/Methods
+https://docs.google.com/document/d/1XB2d4kTzhvmMrvYMgy53AzM4q9iDAxQq7pZ69a2IJjs/edit
+
+Lecture 8: - Questions based on functions 
+https://docs.google.com/document/d/1eEv8JMCr_ZBoE5JSsZxdT5Zq53vq388-EIbE_mi7QME/edit
+
+Lecture 9: - we should konw about recursion 
+seperate video : - 
+https://www.youtube.com/watch?v=5Boqfjissv0&t=906s
+Notes : - 
+https://drive.google.com/file/d/1dM-VdXt_U2mtVfrQfvY-B5nUmzXSYqks/view
