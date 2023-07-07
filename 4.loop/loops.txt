@@ -1,5 +1,9 @@
 Loops:-
     Loops means if the work we want to do is that repeatedly then we itroduse the topic as looops 
+
+    The main concept to know here is about is ITETATION
+                Iterator in Java is an object used to cycle through arguments or elements present in a collection
+                It is derived from the technical term “iterating,” which means looping through. Generally, an iterator in Java is used to loop through any collection of objects
    
          for the best example :-
                  if the teachers gives a homework to write for the same question for 100times then we used to wrtie
