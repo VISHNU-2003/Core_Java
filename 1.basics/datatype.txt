@@ -4,12 +4,13 @@ there are two types of datatypes
 2. Reference Data Types
 
 PRIMITIVE DATATYPE:-
+        A primitive type is predefined by the language and is named by a reserved keyword. Primitive values do not share state with other primitive values. The eight primitive data types supported by the Java programming language are: byte: The byte data type is an 8-bit signed two's complement integer.
 
 coming to Primitive data type again it was dividied into 4 types 
-                1.Integers
-                2.Floating
-                3.character
-                4.boolean
+                1.Integers (int)
+                2.Floating (double or float = f)
+                3.character (char)
+                4.boolean   (boolean)
 
 1. Integers---> which carries the positive and negative numbers along with 0
                  these are again carring the multiple types likee..
@@ -38,7 +39,7 @@ INT is a signed integer {Signed integers are stored in a computer using 2's comp
 INT is 32 bits wide
 
 LONG:-
-long is a 64-bit signed integer which consists  of 8bytes = 4(8bits) = 64bits
+long is a 64-bit signed integer which consists  of 8bytes = 8(8bits) = 64bits
 LONG is a signed integer
 LONG is 64 bits wide
 for long the syntax is written as long l = 58584l(here the letter L is must for the end of the long datatype)
@@ -80,4 +81,20 @@ a character can be also a number from {0-9}
 
 the above mentiond are known as Primitive datatypes..
 
+2.Reference DataTypes: -
+        These dataTypes hold reference variables that refer to an object on heap memory instead of storing their actual values
+        These dataTypes refers some object that exists outside our program memory space like arrays , classes etc.,
+        and we need not create an instance every time when using them inside code block.
+        Here's how they work :
+        i.) String :- This DataType represents sequence of Unicode characters enclosed within quotes(" "). It allows
+                us to manipulate strings easily by providing various methods such as length(), concatenation(+), comparison(=),
+                us to manipulate strings easily by providing various methods such as length(), concatenation(+), comparison(=~
+                us to manipulate strings easily by providing various methods such as length(), concatenation(+), comparison(=~
+                us to manipulate strings easily by providing various methods for manipulating textual information such as finding length,
+                us to manipulate strings easily by providing various methods for manipulating textual information such as searching, replacing
+                us to manipulate strings easily by providing various methods for manipulating textual information such as finding length,
+                us to manipulate strings easily by providing various methods for string manipulation such as concatenation, comparison, searching
+                us to manipulate strings easily by providing various methods for manipulating textual information such as finding length,
+                us to manipulate strings easily by providing various methods for manipulating textual information such as finding length,
+                us to manipulate textual information easily by providing various methods for manipulating strings such as substring(), replace
 

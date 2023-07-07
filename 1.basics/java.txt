@@ -55,4 +55,3 @@ run
 
 double quotes " " is used for mentioning the strings;
 Single quotes ' ' is used for mentioning the characters;
-s
