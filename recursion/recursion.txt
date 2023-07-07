@@ -1,0 +1,30 @@
+Before starting about the recursion You need to have a deep knowledge into the 
+
+=> Iteration/Loops and Functions 
+
+=> we can say that the relation between the recursion and the iteration is like the brothers where
+
+
+of function calls. The base case will be when there are no more recursive call, then we return
+
+
+=> the whole process we done into the iteratios is done into the recursion like we can say that recursion is the another porcess of iteration
+
+=> On the basis of the complexity of questions we chose to solve the problem by using recursion or else iteration. This should think on the basis of the question only. 
+
+ Recursion: -
+    A function that calls it self is known as recursion.
+    It helps in solving complex problems by breaking them down into smaller sub-problems of same type or
+    similar types until they become simple enough for which an iterative approach would work better than
+    using recursion.
+
+    There should be a solid base case to code using recursion in its function.
+    
+    If not defined properly, infinite loop may occur due to stack overflow error.
+   
+    Recursive functions also tend to consume higher memory compared with their non-recursive counterparts because each time
+    
+    Recursive functions also consumes extra memory compared with their non-recursive counterparts because each
+   
+    In order to avoid this issue, proper termination condition must also be included while coding with
+    recursion. This ensures that all possible paths lead towards solution without any errors being thrown up.
